@@ -1,0 +1,40 @@
+# Gradle Build and Cache Outputs
+.gradle/
+build/
+**/build/
+!**/src/**/build/
+
+# Do NOT ignore the Gradle wrapper directory structure or files
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+
+# IntelliJ IDEA Project Files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# If you choose to share project run configurations, uncomment the line below
+# !.idea/runConfigurations/
+
+# Java and Compiler Outputs
+*.class
+*.jar
+*.war
+*.ear
+
+# Explicitly ensure your local vendor-libs are NOT tracked if you plan to
+# distribute them manually outside of Git
+vendor-libs/
+
+# Operating System and Environment Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+.fuse_hidden*
